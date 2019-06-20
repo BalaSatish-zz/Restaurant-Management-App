@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.satish.bunny.tanga">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".Activities.Access.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.Access.LoginActivity" />
+        <activity android:name=".Activities.Access.RegisterActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.satish.bunny.tanga.Activities.Access.RegisterActivity" />
+        </activity>
+        <activity android:name=".Activities.Details.DetailsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.satish.bunny.tanga.Activities.Details.DetailsActivity" />
+        </activity>
+        <activity android:name=".Activities.Owner.MenuCreatorActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.satish.bunny.tanga.Activities.Owner.MenuCreatorActivity" />
+        </activity>
+        <activity android:name=".Activities.Customer.MenuOrderActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.satish.bunny.tanga.Activities.Customer.MenuOrderActivity" />
+        </activity>
+        <activity android:name=".Activities.Customer.HotelSelectActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.satish.bunny.tanga.Activities.Customer.HotelSelectActivity" />
+        </activity>
+        <activity android:name=".Activities.Access.PasswordResetActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.satish.bunny.tanga.Activities.Access.PasswordResetActivity" />
+        </activity>
+        <activity android:name=".Activities.Bills.BillListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.satish.bunny.tanga.Activities.Bills.BillListActivity" />
+        </activity>
+        <activity android:name=".Activities.Customer.QRScannerActivity" />
+        <activity android:name=".Activities.Owner.QRGeneratorActivity" />
+        <activity android:name=".Activities.Owner.TypesEditorActivity" />
+        <activity android:name=".Activities.Owner.TakeAwayActivity"/>
+        <activity android:name=".Activities.Owner.HotelManagerActivity" />
+        <activity android:name=".Activities.Owner.OrderMangerActivity" />
+        <activity android:name=".OrderActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".OrderActivity" />
+        </activity>
+        <activity android:name=".PaytmGateWay" />
+        <activity android:name=".OrderOutsideActivity"></activity>
+    </application>
+
+</manifest>

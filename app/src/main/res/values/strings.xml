@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tanga</string>
+    <string name="options_menu_action_setting">Setting</string>
+    <string name="options_menu_action_about_us">About us</string>
+    <string name="options_menu_action_logout">Logout</string>
+
+    <string-array name="Item_Types">
+        <item>Veg</item>
+        <item>Non-Veg</item>
+    </string-array>
+
+    <string name="title_activity_qrgenerator">QRGeneratorActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="privacy_policies">Privacy Policies</string>
+</resources>

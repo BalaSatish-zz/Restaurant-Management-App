@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_color"
+    tools:context="com.satish.bunny.tanga.Activities.Owner.HotelManagerActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Manage Your Restaurant"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#ff0000"
+        android:alpha="0.7"
+        android:textSize="35dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/tvOrderManager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Manage Orders"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:textColor="#000000"
+        android:alpha="0.8"
+        android:textSize="30dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/tvMenuEditor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="casual"
+        android:text="Menu Editor"
+        android:textColor="#000000"
+        android:alpha="0.8"
+        android:textSize="30dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/tvTypesEditor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Type Editor"
+        android:textColor="#000000"
+        android:alpha="0.8"
+        android:fontFamily="casual"
+        android:textSize="30dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/tvTakeAway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Take Away"
+        android:textColor="#000000"
+        android:alpha="0.8"
+        android:fontFamily="casual"
+        android:textSize="30dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/tvQRGenerator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="QRGenerator"
+        android:fontFamily="casual"
+        android:textColor="#000000"
+        android:alpha="0.8"
+        android:textSize="30dp"
+        android:padding="5dp"
+        />
+</LinearLayout>

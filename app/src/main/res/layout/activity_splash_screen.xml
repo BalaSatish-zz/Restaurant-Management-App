@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9fd1ec"
+    tools:context="com.satish.bunny.tanga.Activities.Access.SplashScreenActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/iv"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon"
+            android:layout_margin="55dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv"
+            android:layout_alignLeft="@+id/iv"
+            android:layout_alignStart="@+id/iv"
+            android:text="We Deliver Taste"
+            android:textColor="#000000"
+            android:alpha="0.7"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="cursive"
+            android:textSize="45sp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
